@@ -1,5 +1,5 @@
 import React from "react";
-
+import './ProductDetailsStyle.css';
 export type ProductProps = {
   name: string;
   price: number;
@@ -12,11 +12,11 @@ export type ProductProps = {
 export const ProductItem = (props: ProductProps) => {
   return (
     <div>
-      <ul>
-        <li>Size {props.size}</li>
-        <li>Condition {props.condtion}</li>
-        <li>Location {props.location}</li>
-        <li>Description {props.description}</li>
+      <ul style={{ listStyleType: "none", margin: 0, padding: 0 }}>
+        <li className="listItem">Size {props.size}</li>
+        <li className="listItem">Condition {props.condtion}</li>
+        <li className="listItem">Location {props.location}</li>
+        <li className="listItem">Description {props.description}</li>
       </ul>
     </div>
   );

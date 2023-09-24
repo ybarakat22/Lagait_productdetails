@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 
 export type SellerProps = {
   image: string;
@@ -8,11 +7,16 @@ export type SellerProps = {
 };
 const Seller = (props: SellerProps) => {
   return (
-    <div>
-      <img src={props.image} />
-      <text>{props.name}</text>
-      <text> Memeber since {props.membershipDate}</text>
-      <Button name="View Profile"></Button>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <img
+        src={props.image}
+        style={{ borderRadius: "50%", width: "100px", height: "100px" }}
+      />
+      <div style={{ marginLeft: "10px" }}>
+        <div>{props.name}</div>
+        <div>Verified</div>
+        <div>Member since {props.membershipDate}</div>
+      </div>
     </div>
   );
 };

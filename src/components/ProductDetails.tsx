@@ -1,19 +1,10 @@
 import React from "react";
-import Button from "./Button";
-import NavigationBar from "./NavigationBar";
-import { displayedProduct } from "../testObjects";
+import "./ProductDetailsStyle.css";
 import ProductDisplay from "./ProductDisplay";
+import ProductOverview from "./ProductOverview";
 
 const ProductDetails = () => {
-  //   const [viewSeller , setViewSeller] = useState(false)
-  return (
-    <div>
-      <h2>{displayedProduct.name}</h2>
-      <h3>AED {displayedProduct.price}</h3>
-      <Button name="MESSAGE SELLER" />
-      <NavigationBar />
-    </div>
-  );
+  return <ProductOverview />;
 };
 
 export default ProductDetails;
