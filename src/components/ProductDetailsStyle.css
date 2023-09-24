@@ -1,17 +1,25 @@
+.imageContainer {
+  width: 842px;
+  height: 842px;
+  top: 670px;
+  left: 84px;
+  border: 2px;
+}
+
 .textContainer {
-
   width: 860.23px;
-  height: 1581px; 
-  margin-top: 460px;
-  margin-left: 976px;
-
+  height: 158.1px;
+  top: 460px;
+  left: 976px;
 }
 
-.listItem{
-    padding: 5px;
+.relevantProductsContainer {
+  width: 1706px;
+  height: 624px;
+  top: 2345px;
+  left: 107px;
 }
-.imageContainer{
-    margin-top:670px;
-    margin-left:84px;
-    border: 2px;
+
+.listItem {
+  padding: 5px;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 // import { Route, Routes } from "react-router-dom";
-import ProductDetails from "./components/ProductDetails";
-
+import ProductDetails from "./pages/ProductDetails";
 function App() {
   return (
     <div className="App">

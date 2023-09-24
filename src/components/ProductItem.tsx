@@ -1,6 +1,8 @@
 import React from "react";
 import './ProductDetailsStyle.css';
+
 export type ProductProps = {
+  images:string[];
   name: string;
   price: number;
   size: string;
