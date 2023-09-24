@@ -1,4 +1,4 @@
-.container {
+.textContainer {
 
   width: 860.23px;
   height: 1581px; 
@@ -9,6 +9,9 @@
 
 .listItem{
     padding: 5px;
-
-
+}
+.imageContainer{
+    margin-top:670px;
+    margin-left:84px;
+    border: 2px;
 }

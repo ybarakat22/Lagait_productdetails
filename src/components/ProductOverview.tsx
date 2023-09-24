@@ -5,7 +5,7 @@ import Button from './Button'
 import './ProductDetailsStyle.css'
 const ProductOverview = () => {
   return (
-    <div className="container">
+    <div className="textContainer">
     <h2>{displayedProduct.name}</h2>
     <h3 style={{ color: "blue" }}>AED {displayedProduct.price}</h3>
     <Button name="MESSAGE SELLER" />
