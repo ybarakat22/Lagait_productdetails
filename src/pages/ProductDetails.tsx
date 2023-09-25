@@ -12,6 +12,7 @@ const ProductDetails = () => {
         <ProductOverview />
       </div>
       <RelevantProductList />
+      
     </div>
   );
 };

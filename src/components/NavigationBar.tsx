@@ -5,7 +5,17 @@ import { ProductItem } from "./ProductItem";
 import Seller from "./Seller";
 import Button from "./Button";
 import { displayedProduct, displayedSeller } from "../testObjects";
-
+// const buttonStyles = {
+//   width: "566px",
+//   height: "85px",
+//   border: "1px",
+//   fontFamily: "Poppins",
+//   fontSize: "36px",
+//   fontWeight: "500",
+//   lineHeight: "54px",
+//   letterSpacing: "0em",
+//   textAlign: "left",
+// }
 type NavigationBarProps = {
   className: string;
 };
@@ -22,7 +32,7 @@ const NavigationBar = (props: NavigationBarProps) => {
         </TabPanel>
         <TabPanel>
           <Seller {...displayedSeller} />
-          <Button name="View Profile" />
+          <Button styles={{color:'blue'}} name="View Profile" />
         </TabPanel>
       </Tabs>
     </div>

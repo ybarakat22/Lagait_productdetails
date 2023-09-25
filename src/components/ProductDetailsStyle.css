@@ -1,23 +1,30 @@
 .imageContainer {
   width: 842px;
   height: 842px;
-  top: 670px;
-  left: 84px;
+  margin-top: 670px;
+  margin-left: 84px;
   border: 2px;
 }
 
 .textContainer {
   width: 860.23px;
-  height: 158.1px;
-  top: 460px;
+  height: 1581px;
+  margin-top: 460px;
   left: 976px;
 }
 
 .relevantProductsContainer {
   width: 1706px;
   height: 624px;
-  top: 2345px;
-  left: 107px;
+  margin-top: 2345px;
+  margin-left: 107px;
+}
+.relevantProductItem {
+  width: 317px;
+  height: 188px;
+  top: 334px;
+  padding: 0px, 0px, 20px, 0px;
+  gap: 15px;
 }
 
 .listItem {
