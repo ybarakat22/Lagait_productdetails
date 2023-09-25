@@ -7,8 +7,7 @@ const RelevantProductList = () => {
     <div className="relevantProductsContainer">
       <div
         style={{
-          width: "323px",
-          height: "41px",
+          marginBottom: "90px",
           fontFamily: "Futura PT",
           fontSize: "32px",
           fontWeight: "500",

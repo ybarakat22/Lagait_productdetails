@@ -36,7 +36,19 @@ const ReportSeller = () => {
 
   return (
     <div>
-      <a href="#" onClick={openDialog}>
+      <a
+        style={{
+          fontFamily: "Poppins",
+          fontSize: "32px",
+          fontWeight: "500",
+          lineHeight: "48px",
+          letterSpacing: "0em",
+          textAlign: "center",
+          color: "#1F24AB",
+        }}
+        href="#"
+        onClick={openDialog}
+      >
         Suspect this listing is fake? Let us know.
       </a>
     </div>

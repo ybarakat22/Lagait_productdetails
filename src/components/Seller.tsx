@@ -12,25 +12,47 @@ const Seller = (props: SellerProps) => {
         src={props.image}
         style={{ borderRadius: "50%", width: "202px", height: "202px" }}
       />
-      <div style={{ marginLeft: "10px" }}>
+      <div style={{marginLeft:'20px'}}>
         <div
           style={{
-            width: "190px",
-            height: "60px",
             fontFamily: "Poppins",
             fontSize: "40px",
             fontWeight: "600",
             lineHeight: "60px",
             letterSpacing: "0em",
             textAlign: "left",
+            marginBottom: "31px",
           }}
         >
           {props.name}
         </div>
-        <div style={{ width: "224px", height: "41px", borderRadius: "10px" }}>
+        <div
+          style={{
+            fontFamily: "Poppins",
+            fontSize: "20px",
+            fontWeight: "500",
+            lineHeight: "30px",
+            letterSpacing: "0em",
+            textAlign: "left",
+            color: "#62C29B",
+            marginBottom: "31px",
+          }}
+        >
           Verified
         </div>
-        <div>Member since {props.membershipDate}</div>
+        <div
+          style={{
+            fontFamily: "Poppins",
+            fontSize: "24px",
+            fontWeight: "400",
+            lineHeight: "36px",
+            letterSpacing: "0em",
+            textAlign: "left",
+            color: "#979797",
+          }}
+        >
+          Member since {props.membershipDate}
+        </div>
       </div>
     </div>
   );

@@ -14,11 +14,35 @@ export type ProductProps = {
 export const ProductItem = (props: ProductProps) => {
   return (
     <div>
-      <ul style={{listStyleType: "none", margin: 0, padding: 0 }}>
-        <li className="listItem">Size {props.size}</li>
-        <li className="listItem">Condition {props.condtion}</li>
-        <li className="listItem">Location {props.location}</li>
-        <li className="listItem">Description {props.description}</li>
+      <ul style={{ listStyleType: "none", margin: 0, padding: 0 }}>
+        <li className="listItem">
+          Size{" "}
+          <span className="span" style={{ marginLeft: "251px" }}>
+            {props.size}
+          </span>{" "}
+        </li>
+        <li className="listItem">
+          Condition{" "}
+          <span className="span" style={{ marginLeft: "170px" }}>
+            {" "}
+            {props.condtion}
+          </span>
+        </li>
+        <li className="listItem">
+          Location{" "}
+          <span className="span" style={{ marginLeft: "190px" }}>
+            {props.location}
+          </span>
+        </li>
+        <li className="listItem">
+          Description{" "}
+          <span
+            className="span"
+            style={{ marginLeft: "150px", textAlign: "right" }}
+          >
+            {props.description}
+          </span>
+        </li>
       </ul>
     </div>
   );

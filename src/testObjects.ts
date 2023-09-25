@@ -12,7 +12,7 @@ export const displayedProduct: ProductProps = {
   condtion: "Brand New",
   location: "Abu Dhabi",
   description:
-    "Size 10.5 US. In good condition, no major visible dirt/damage on the shoes. No box and missing the additional swooshes. There are 3 silver swooshes with as the inside swoosh from the left shoe is also missing.",
+    "Some text",
 };
 
 //Example Seller

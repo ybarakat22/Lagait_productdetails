@@ -5,17 +5,6 @@ import { ProductItem } from "./ProductItem";
 import Seller from "./Seller";
 import Button from "./Button";
 import { displayedProduct, displayedSeller } from "../testObjects";
-// const buttonStyles = {
-//   width: "566px",
-//   height: "85px",
-//   border: "1px",
-//   fontFamily: "Poppins",
-//   fontSize: "36px",
-//   fontWeight: "500",
-//   lineHeight: "54px",
-//   letterSpacing: "0em",
-//   textAlign: "left",
-// }
 type NavigationBarProps = {
   className: string;
 };
@@ -24,15 +13,51 @@ const NavigationBar = (props: NavigationBarProps) => {
     <div>
       <Tabs>
         <TabList>
-          <Tab>Details</Tab>
-          <Tab>Seller Information</Tab>
+          <Tab
+            style={{
+              fontFamily: "Futura PT",
+              fontSize: "40px",
+              fontWeight: "450",
+              lineHeight: "51px",
+              letterSpacing: "0em",
+              textAlign: "left",
+            }}
+          >
+            Details
+          </Tab>
+          <Tab
+            style={{
+              fontFamily: "Futura PT",
+              fontSize: "40px",
+              fontWeight: "450",
+              lineHeight: "51px",
+              letterSpacing: "0em",
+              textAlign: "left",
+              marginLeft: "150px",
+            }}
+          >
+            Seller Information
+          </Tab>
         </TabList>
         <TabPanel>
           <ProductItem {...displayedProduct} />
         </TabPanel>
         <TabPanel>
           <Seller {...displayedSeller} />
-          <Button styles={{color:'blue'}} name="View Profile" />
+          <Button
+            styles={{
+              width: "566px",
+              height: "85px",
+              marginTop: "55px",
+              fontFamily: "Poppins",
+              fontSize: "36px",
+              fontWeight: "500",
+              lineHeight: "54px",
+              letterSpacing: "0em",
+              textAlign: "center", 
+            }}
+            name="View Profile"
+          />
         </TabPanel>
       </Tabs>
     </div>
