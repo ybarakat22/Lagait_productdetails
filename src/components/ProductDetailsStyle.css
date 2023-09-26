@@ -3,23 +3,23 @@
   height: 842px;
   margin-left: 84px;
   margin-top: 670px;
-  margin-right: 994px;
 }
 
 .textContainer {
   width: 860.23px;
   height: 1581px;
   margin-top: 460px;
-  margin-left: 976px;
+  margin-left: 50px;
   margin-right: 83.77px;
 }
 
 .relevantProductsContainer {
   width: 1706px;
   height: 624px;
-  margin-top: 2345px;
+  margin-top: 200px;
   margin-left: 107px;
   margin-bottom: 954px;
+  margin-right: 107px;
 }
 .relevantProductItem {
   width: 318px;
@@ -42,4 +42,14 @@
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.checkBox {
+font-family: Poppins;
+font-size: 40px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
 }

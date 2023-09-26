@@ -3,8 +3,7 @@ import NavigationBar from "./NavigationBar";
 import { displayedProduct } from "../testObjects";
 import Button from "./Button";
 import "./ProductDetailsStyle.css";
-import ReportSeller from "./ReportSeller";
-
+import ReportSeller from "./ReportSellerWindow";
 const ProductOverview = () => {
   return (
     <div className="textContainer">
@@ -48,7 +47,7 @@ const ProductOverview = () => {
           lineHeight: "41px",
           letterSpacing: "0em",
           textAlign: "center",
-          marginBottom:'160px'
+          marginBottom: "160px",
         }}
         name="MESSAGE SELLER"
       />

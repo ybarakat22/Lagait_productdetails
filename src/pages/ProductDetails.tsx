@@ -8,7 +8,7 @@ const ProductDetails = () => {
   return (
     <div>
       <div style={{ display: "flex" }}>
-        {/* <ProductDisplay image={displayedSeller.image} /> */}
+        <ProductDisplay image={displayedSeller.image} />
         <ProductOverview />
       </div>
       <RelevantProductList />
