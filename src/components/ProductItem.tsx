@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProductDetailsStyle.css";
+import "../styles/ProductOverview.css";
 
 export type ProductProps = {
   images: string[];

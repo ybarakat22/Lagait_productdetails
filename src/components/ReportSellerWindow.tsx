@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import "./ProductDetailsStyle.css";
 const ReportSeller = () => {
-  
   const windowBody: string = `<html>
   <body>
     <div class="dialog-content">
@@ -47,7 +45,11 @@ const ReportSeller = () => {
   </body>
 </html>`;
   const openDialog = () => {
-    const dialogWindow = window.open("", "", "width: 1052px,height: 1426px,top: 555px,left: 434px , border-radius: 10px,border: 2px,");
+    const dialogWindow = window.open(
+      "",
+      "",
+      "width: 1052px,height: 1426px,top: 555px,left: 434px , border-radius: 10px,border: 2px,"
+    );
     if (dialogWindow) {
       dialogWindow.document.write(windowBody);
     }

@@ -5,6 +5,8 @@ import { ProductItem } from "./ProductItem";
 import Seller from "./Seller";
 import Button from "./Button";
 import { displayedProduct, displayedSeller } from "../testObjects";
+import "../styles/Seller.css";
+
 type NavigationBarProps = {
   className: string;
 };
@@ -44,20 +46,7 @@ const NavigationBar = (props: NavigationBarProps) => {
         </TabPanel>
         <TabPanel>
           <Seller {...displayedSeller} />
-          <Button
-            styles={{
-              width: "566px",
-              height: "85px",
-              marginTop: "55px",
-              fontFamily: "Poppins",
-              fontSize: "36px",
-              fontWeight: "500",
-              lineHeight: "54px",
-              letterSpacing: "0em",
-              textAlign: "center", 
-            }}
-            name="View Profile"
-          />
+          <Button class="viewButton" name="View Profile" />
         </TabPanel>
       </Tabs>
     </div>

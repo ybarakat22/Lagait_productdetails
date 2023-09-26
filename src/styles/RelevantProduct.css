@@ -1,0 +1,53 @@
+.relevantProductsContainer {
+  width: 1706px;
+  height: 624px;
+  margin-top: 200px;
+  margin-left: 107px;
+  margin-bottom: 954px;
+  margin-right: 107px;
+}
+.relevantProductItem {
+  width: 318px;
+  height: 534px;
+  margin-right: 29px;
+}
+.header {
+  margin-bottom: 90px;
+  font-family: Futura PT;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.brand {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #767677;
+  margin-bottom: 67.5px;
+}
+.name {
+  font-family: Futura PT;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 31px;
+}
+.price {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.relevantImage {
+  width:318px;
+  height: 318px;
+}

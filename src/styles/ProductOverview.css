@@ -1,0 +1,40 @@
+.textContainer {
+  width: 860.23px;
+  height: 1581px;
+  margin-top: 460px;
+  margin-left: 50px;
+  margin-right: 83.77px;
+}
+.listItem {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header2 {
+  font-family: Futura PT;
+  font-size: 64px;
+  font-weight: 450;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header3 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f24ab;
+}
+.span {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
