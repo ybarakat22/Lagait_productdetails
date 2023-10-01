@@ -1,0 +1,42 @@
+.windowHeader {
+    font-family: Futura PT;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: 0em;
+    margin-bottom: 114px;
+    margin-left: 323px;
+    margin-right: 374px;
+  }
+  .cardContent {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    margin-left: 110px;
+    margin-right: 224px;
+  }
+  .textBoxTitle {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 110px;
+    margin-bottom: 25px;
+  }
+  .reportBox {
+    width: 791.93px;
+    height: 195px;
+    border-radius: 6px;
+    border: 2px;
+    margin-left: 111.07px;
+    margin-bottom: 266px;
+    margin-right: 149px;
+  }
+  
+  .checkBoxElement {
+    padding-bottom: 66px;
+  }
+  

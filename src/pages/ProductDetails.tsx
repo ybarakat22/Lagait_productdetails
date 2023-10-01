@@ -3,6 +3,7 @@ import ProductDisplay from "../components/ProductDisplayer";
 import ProductOverview from "../components/ProductOverview";
 import RelevantProductList from "../components/RelevantProductList";
 import { displayedSeller } from "../testObjects";
+import Footer from "../components/Footer";
 const ProductDetails = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const ProductDetails = () => {
         <ProductOverview />
       </div>
       <RelevantProductList />
-      
+      <Footer></Footer>
     </div>
   );
 };

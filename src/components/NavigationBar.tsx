@@ -46,7 +46,11 @@ const NavigationBar = (props: NavigationBarProps) => {
         </TabPanel>
         <TabPanel>
           <Seller {...displayedSeller} />
-          <Button class="viewButton" name="View Profile" />
+          <Button
+            class="viewButton"
+            name="View Profile"
+            handleClick={() => {}}
+          />
         </TabPanel>
       </Tabs>
     </div>

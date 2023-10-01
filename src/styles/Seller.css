@@ -32,10 +32,11 @@
 }
 
 .messageButton {
-  width: 483px;
-  height: 124px;
-  top: 938px;
-  left: 1008px;
+   
+  padding-left:51.28px;
+  padding-right: 181.25px;
+  padding-top: 37px;
+  padding-bottom: 36px;
   background-color: #1f24ab;
   color: #ffffff;
   font-family: Futura PT;
@@ -43,12 +44,14 @@
   font-weight: 450;
   line-height: 41px;
   letter-spacing: 0em;
-  text-align: center;
   margin-bottom: 160px;
 }
 .viewButton {
-  width: 566px;
-  height: 85px;
+  
+  padding-left:179px;
+  padding-right: 179px;
+  padding-top: 16px;
+  padding-bottom: 15px;
   margin-top: 55px;
   font-family: Poppins;
   font-size: 36px;
